@@ -1,5 +1,5 @@
 body{
-  background-color: #F9CC9D;
+  background-color: #E4AA6D;
   margin: 0;
 }
 /* Clearfix */
@@ -37,7 +37,6 @@ body{
 .searchbar input{
   margin-left: 20px;
   margin-top: 20px;
-  border: 1px solid ;
   border-radius: 50px;
   float: left;
   width: 250px;
@@ -53,6 +52,11 @@ body{
   /* z-index: 1; */
   left: -60px;
 }
+.fa-link {
+  color: grey;
+  font-size: 20px;
+  padding-left: 5px;
+}
 #profile {
 margin-top: 14px;
 float: right;
@@ -66,4 +70,82 @@ float: right;
   color: white;
   text-decoration: none;
   padding: 30px 8px;
+}
+
+#links a:hover{
+  background-color: orange;
+}
+
+.bigbox{
+    float: left;
+    box-sizing: border-box;
+    width: 60%;
+    padding: 50px;
+    background-color: #F7E0C8;
+    margin-top: 50px;
+    margin-left: 75px;
+    border-radius: 10px;
+}
+.smallbox{
+  box-sizing: border-box;
+  width: 25%;
+  padding: 35px;
+  background-color: #F7E0C8;
+  float: right;
+  margin-top: 50px;
+  border-radius: 10px;
+  margin-right: 75px;
+}
+.content{
+  font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.45;
+}
+.date-bar{
+  font-family: 'Source Code Pro', Menlo, Consolas, Monaco, monospace;
+text-transform: uppercase;
+font-size: 0.8rem;
+letter-spacing: 2px;
+display: block;
+color: #777;
+}
+.heading{
+  font-size: 1.6rem;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-decoration: none;
+}
+.buttonx{
+height: 30px;
+width: auto;
+border-radius: 7px;
+background-color: white;
+border: 1px white;
+display: inline-block;
+font-size: 15px;
+}
+.jobboardlink{
+  text-decoration: none;
+  font-size: 1.2rem;
+
+}
+.smallbox a:hover{
+  text-decoration: underline;
+}
+button:last-child{
+  margin-left: 15px;
+}
+.floaterdiv{
+  margin: 125px auto;
+  float: left;
+}
+.internal-block-link-button {
+    display: block;
+    height: 35px;
+    width: auto;
+    border-radius: 7px;
+    background-color: black;
+    border-color: black;
+    font-size: 15px;
+    color: white;
 }
